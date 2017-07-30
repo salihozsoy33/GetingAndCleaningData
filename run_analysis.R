@@ -25,4 +25,4 @@ vals <- data[, outcome]
 rowNum <- which.min(vals)
 	## Return hospital name in that state with lowest 30-day death rate
 data[rowNum, ]$name
-}
+} 
